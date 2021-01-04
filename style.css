@@ -1,0 +1,124 @@
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav{
+  background: white;
+  padding: 10px 3px;
+  border-left: none;
+  border-right: none;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+nav ul .searchbutton{
+  color: #3D8883;
+  float: left;
+  width: 40;
+  height: 40;
+  border-radius: 50%;
+  padding-right:150;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul .searchbutton input{
+  height: 100%;
+  width: 500px;
+  border: 1px solid #3D8883;
+  padding: 2 50px;
+  color: #8E9998;
+  font-size: 16px;
+  border-radius: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+nav ul .options{
+  color: #3D8883;
+  padding-right: 250;
+  width: 90;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.sidebar{
+  position: fixed;
+  left: -250px;
+  width: 250px;
+  height: 100%
+  background: #FFFFFF;
+  list-style: none;
+}
+
+.sidebar header{
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+  text-align: center;
+  color: #202020;
+  background: #FFFFF;
+}
+
+.sidebar ul a{
+  text-decoration: none;
+  display: block;
+  height: 100$;
+  width: 100%;
+  line-height: 50px;
+  font-size: 20px;
+  color: #3D8883;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: .4s;
+  list-style-type: none;
+}
+
+ul li: hover a{
+  padding-left: 50px;
+}
+
+#check{
+
+}
+
+input[type='checkbox']{
+  width: 130px;
+  height: 61px;
+  padding-left: 30;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+label #button{
+  position: absolute;
+  cursor: pointer;
+  left: 40px;
+  top: 25px;
+  font-size: 35px;
+  background: white;
+  color: #3D8883;
+  padding: 6px 12px;
+}
+
+#check:checked ~ .sidebar{
+  left: 0;
+}
