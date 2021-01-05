@@ -10,6 +10,14 @@ body {
   text-decoration: none;
 }
 
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
 .sidebar{
   position:fixed;
   left: -300px;
@@ -145,4 +153,16 @@ transition: all .5s;
   font-size: 18px;
   color: #3D8883;
   text-decoration: none;
+}
+
+.title{
+  padding: 40px 200px 10px;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.subtitle{
+  padding: 10px 200px;
+  font-size: 30px;
+  font-weight: bold;
 }
