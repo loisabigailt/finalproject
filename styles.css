@@ -42,7 +42,7 @@ ul{
   height: 100%;
   width: 100%;
   line-height: 42px;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
   box-sizing: border-box;
   border: 10px solid white;
@@ -67,9 +67,9 @@ label #button,label #cancel{
   border-radius: 3px;
 }
 label #button{
-  left:40px;
-  top:25px;
-  font-size: 35px;
+  left:370px;
+  top:28px;
+  font-size: 30px;
   color: #3D8883;
   padding: 6px 12px;
   transition: all .5s ease;
@@ -77,8 +77,8 @@ label #button{
 
 label #cancel{
   z-index: 1111;
-  left: -245px;
-  top: 17px;
+  left: -300px;
+  top: 33px;
   font-size: 30px;
   color: #3D8883;
   padding: 4px 9px;
@@ -100,7 +100,7 @@ label #cancel{
 }
 
 #check:checked ~ section{
-  margin-left: 300px;
+  margin-left: 50px;
 
 }
 
@@ -122,8 +122,8 @@ transition: all .5s;
   margin: auto;
   margin-top: 2.5%;
   position: relative;
-  width: 500px;
-  height: 42px;
+  width: 350px;
+  height: 27px;
   border: 2px solid #3D8883;
   padding: 0px 10px;
   border-radius: 20px;
@@ -162,31 +162,31 @@ transition: all .5s;
   color: #3D8883;
 }
 .title{
-  padding: 20px 200px 10px;
-  font-size: 24px;
+  padding: 20px 400px 10px;
+  font-size: 18px;
   font-weight: lighter;
 }
 
 .subtitle{
-  padding: 0px 200px;
-  font-size: 30px;
+  padding: 0px 400px;
+  font-size: 24px;
   font-weight: bold;
 }
 
 .box{
-  width:600px;
+  width:378px;
   border-radius: 20px;
   border: 1px solid #3D8883;
   overflow: hidden;
   padding: 30px 20px;
-  margin-left: 400px;
+  margin-left: 450px;
   margin-top: 1%;
   margin-bottom: 1%;
   position: relative;
 }
 
 .hospital-img{
-  height: 200px;
+  height: 150px;
 }
 
 .hospital-img img{
@@ -197,7 +197,8 @@ transition: all .5s;
 }
 
 .mercury-img{
-  height: 200px;
+  height: 100px;
+  padding: 30px 20px;
 }
 
 .mercury-img img{
