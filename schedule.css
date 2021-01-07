@@ -1,0 +1,237 @@
+
+body {
+  font-family: 'Nunito', sans-serif;
+  margin:0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.iosarrow {
+  position: absolute;
+  left: 35%;
+  top: 10%;
+}
+
+.container{
+  max-width: 698px;
+  font-family: sans-serif;
+  margin-left: 430px;
+  padding-top:50px;
+}
+
+table th{
+  color: #3D8883;
+  border-bottom: 1px solid #3D8883;
+}
+
+table, th, td{
+  width: 80%;
+  table-layout: fixed;
+  text-align: center;
+  font-family: 'Nunito',sans-serif;
+  font-size: 15px;
+  border-collapse: collapse;
+  border-bottom: 1px solid #3D8883;
+  color: #202020;
+  padding: 25px;
+  cursor: pointer;
+}
+
+tr td{
+  font-size: 12px;
+}
+
+tr,th,td{
+  padding: 15px;
+}
+
+td:hover{
+  background: #3D8883;
+  border-radius: 50%;
+  color: white;
+  transition: 0.5s ease;
+}
+
+.sched{
+  font-size: 18px;
+  padding-top: 80px;
+  padding-left: 650px;
+  padding-bottom: 10px;
+  color: #3D8883;
+}
+
+#vertical-line-2 {
+  width: 550px;
+  height: 1px;
+  background-color: #3D8888;
+  opacity: 25%;
+  position: absolute;
+  padding-top: 0.1px;
+  left: 30%;
+  top:27%;
+}
+
+.dropdown {
+  box-sizing: border-box;
+  border: 10px solid white;
+  list-style: none;
+  border-radius: 15px;
+  background: #3d8883;
+  color: #f8f8f8;
+  text-align: left;
+  padding-left: 20px;
+  position: absolute;
+  width: 150px;
+  top: 29%;
+  left: 41%;
+}
+
+.arrowdown {
+  position: absolute;
+  left: 80%;
+  top: 31.8%;
+  bottom: 86.33%;
+}
+
+.dropdown2 {
+  box-sizing: border-box;
+  border: 10px solid white;
+  list-style: none;
+  border-radius: 15px;
+  background: #3d8883;
+  color: #f8f8f8;
+  text-align: left;
+  padding-left: 20px;
+  position: absolute;
+  width: 110px;
+  top: 29%;
+  left: 51%;
+}
+
+.arrowdown2 {
+  position: absolute;
+  left: 80%;
+  top: 31.6%;
+}
+
+/*doctor */
+
+#mask1 {
+  position: absolute;
+  left: 40%;
+  top: 6.03%;
+  height: 66.81px;
+  width: 66.81px;
+}
+
+#doctor1 {
+  position: absolute;
+  left: 47%;
+  top: 4.03%;
+  color: #202020;
+  font-family: 'Nunito',sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.Cardiologist {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #c4c4c4;
+}
+
+#num1 {
+  position: absolute;
+  left: 47%;
+  top: 5.03%;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+#num2 {
+  position: absolute;
+  left: 46.3%;
+  top: 8%;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 12px;
+}
+
+#num3 {
+  position: absolute;
+  left: 46.3%;
+  top: 10.2%;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 12px;
+}
+
+#rev1 {
+  position: absolute;
+  left: 61%;
+  top: 6.04%;
+}
+
+#vertical-line-1 {
+  width: 550px;
+  height: 1px;
+  background-color: #3D8888;
+  opacity: 25%;
+  position: absolute;
+  left: 30%;
+  top: 18%;
+}
+
+
+.header{
+  margin-top: 2.5%;
+  padding-top: 20px;
+}
+
+.availability{
+  margin-left: 480px;
+  color: #8E9998;
+  font-size: 13px;
+}
+
+.details{
+  margin-left: 480px;
+  color: #202020;
+  font-size: 13px;
+}
+
+.dot1 {
+  height: 16px;
+  width: 16px;
+  border: 1px solid #3D8883;
+  border-radius: 50%;
+  display:inline-block;
+  top: 50px;
+  float: left;
+}
+
+.dot1:hover{
+  background: #3D8883;
+  transition: 0.5s ease;
+}
+.dot2 {
+  height: 16px;
+  width: 16px;
+  border: 1px solid #3D8883;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+}
+
+.dot2:hover{
+  background: #3D8883;
+  transition: 0.5s ease;
+}
