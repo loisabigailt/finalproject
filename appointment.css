@@ -4,10 +4,109 @@
   font-family: "Nunito", sans-serif;
 }
 
-.iosarrow {
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.sidebar{
+  position:fixed;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  background: #FFFFFF;
+  transition: all .5s ease;
+}
+
+.sidebar header{
+  font-size: 22px;
+  color: #202020;
+  text-align: center;
+  line-height: 50px;
+  user-select: none;
+}
+
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 42px;
+  font-size: 16px;
+  color: white;
+  box-sizing: border-box;
+  border: 10px solid white;
+  border-radius: 20px;
+  background: #3D8883;
+  transition: .4s;
+  text-align: center;
+}
+
+ul li:hover a{
+  padding-left: 30px;
+}
+
+#check{
+  display: none;
+}
+
+label #button,label #cancel{
   position: absolute;
-  left: 30%;
-  top: 6.4%;
+  cursor: pointer;
+  background: #FFFF;
+  border-radius: 3px;
+}
+label #button{
+  left:410px;
+  top:28px;
+  font-size: 30px;
+  color: #3D8883;
+  padding: 6px 12px;
+  transition: all .5s ease;
+}
+
+label #cancel{
+  z-index: 1111;
+  left: -300px;
+  top: 33px;
+  font-size: 30px;
+  color: #3D8883;
+  padding: 4px 9px;
+  transition: all .5s ease;
+}
+
+#check:checked ~ .sidebar{
+  left: 0;
+}
+
+#check:checked ~ label #button{
+  left: 300px;
+  opacity: 0;
+  pointer-events:none;
+}
+
+#check:checked ~ label #cancel{
+  left: 245px;
+}
+
+#check:checked ~ section{
+  margin-left: 50px;
+
+}
+
+section{
+transition: all .5s;
+}
+
+.sue{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 50%;
 }
 
 .boxcontainer {
