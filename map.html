@@ -2,8 +2,8 @@
 <html lang="en dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Easy Med | Appointments</title>
-    <link rel="stylesheet" href="appointment.css">
+    <title>EasyMed | Home</title>
+    <link rel="stylesheet" href="map.css">
     <script src="https://kit.fontawesome.com/32a8441e8f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
@@ -21,39 +21,47 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="appointment.html">Current Appointments</a></li>
         <li><a href="medical.html">Medical History</a></li>
-        <li><a href="map.html">Hospital Maps</a></li>
+        <li><a href="#">Hospital Maps</a></li>
         <li><a href="#">Prescriptions</a></li>
         <li><a href="#">Account Settings</a></li>
         <li><a href="#">Help</a></li>
         <li><a href="#">Logout</a></li>
       </ul>
     </div>
-    <div class="boxcontainer">
+    <section>
+      <div class="boxcontainer">
         <table class="elementscont">
           <tr>
             <td>
               <input type="text" placeholder="Search the EasyMed app" class ="search">
-              <td class="searchicon"><a href="#"></a>
+              <td class="searchicon"><a href="#>"
                 <i class="fas fa-search"></i></a>
               </td>
             </td>
           </tr>
         </table>
-    </div>
-    <div id="vertical-line-1"></div>
-    <p class="label">Current Appointments</p>
-    <div id="vertical-line-2"></div>
-    <div>
-        <img id="mask1" src="mask4.svg">
-        <h5 id="doctor1">Dra. Abigail Ko</h5>
-        <h6 id="num1" class="Cardiologist">Cardiologist</h6>
-        <div class="details">
-          <p class="date"> December 22, 2020</p>
-          <p class="time"> 10:00 AM to 10:30 AM</p>
+      </div>
+        <p class="title">Hi Sue!</p>
+        <p class="subtitle">Your current location is:</p>
+        <div class="box">
+            <p id="add">300 Columbia East Greenhills Mandaluyong</p>
         </div>
-        <a href="#"><img id="cal1" src="clock.svg"></a>
-    </div>
-
-    <div id="vertical-line-3"></div>
+        <div class="map">
+          <img src="map.svg" class="map-photo">
+        </div>
+        <div class="detail-box">
+                <div class="visitcont"><a href="#">
+                  <table class="elementsvisit">
+                    <tr>
+                      <td>
+                        <p class "visit">Confirm</p>
+                        </td>
+                      </td>
+                    </tr>
+                  </table>
+                </div></a>
+        </div>
+        </div>
+    </section>
   </body>
 </html>
