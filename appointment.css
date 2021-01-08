@@ -211,8 +211,8 @@ transition: all .5s;
 
 #cal1 {
   position: absolute;
-  left: 60.4%;
-  top: 25.8%;
+  left: 57%;
+  top: 25.9%;
 }
 
 .date{
@@ -226,8 +226,8 @@ transition: all .5s;
 }
 
 .details{
-  padding-left: 765px;
-  padding-top: 30px;
+  padding-left: 720px;
+  padding-top: 28px;
 }
 
 #rev1 {
@@ -249,7 +249,7 @@ transition: all .5s;
 
 .label{
   font-size: 18px;
-  padding-top: 40px;
+  padding-top: 30px;
   padding-left: 630px;
   padding-bottom: 10px;
   color: #3D8883;
