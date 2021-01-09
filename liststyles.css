@@ -56,7 +56,7 @@
 
 .sort {
   position: absolute;
-  left: 68%;
+  left: 66.8%;
   top: 6.16%;
 }
 
@@ -132,14 +132,14 @@
 
 #cal1 {
   position: absolute;
-  left: 63%;
+  left: 60%;
   top: 23.5%;
 }
 
 #rev1 {
   position: absolute;
-  left: 68%;
-  top: 23.5%;
+  left: 63%;
+  top: 23.6%;
 }
 
 /* second doctor */
@@ -178,14 +178,14 @@
 
 #cal2 {
   position: absolute;
-  left: 63%;
+  left: 60%;
   top: 34%;
 }
 
 #rev2 {
   position: absolute;
-  left: 68%;
-  top: 34%;
+  left: 63%;
+  top: 34.2%;
 }
 
 /* third doctor */
@@ -224,14 +224,14 @@
 
 #cal3 {
   position: absolute;
-  left: 63%;
+  left: 60%;
   top: 44.5%;
 }
 
 #rev3 {
   position: absolute;
-  left: 68%;
-  top: 44.5%;
+  left: 63%;
+  top: 44.7%;
 }
 
 /* fourth doctor */
@@ -270,14 +270,14 @@
 
 #cal4 {
   position: absolute;
-  left: 63%;
+  left: 60%;
   top: 55%;
 }
 
 #rev4 {
   position: absolute;
-  left: 68%;
-  top: 55%;
+  left: 63%;
+  top: 55.2%;
 }
 
 /* end */
